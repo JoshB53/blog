@@ -1,8 +1,27 @@
 /*
- * Styles for the blog page, applied to dynamically generated HTML.
- *
- * By Curran Kelleher 9/25/2014 curran.kelleher@gmail.com
- */
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2014, 1:34:49 PM
+    Author     : josh
+*/
+
+h1{
+    color: darkcyan;
+    background: linear-gradient(to right, white, lightblue);
+    padding: 1em;
+}
+ol li {
+    display: inline;
+    background-color: limegreen;
+    color: white;
+    padding: 1px;
+    font-size:30px;
+    width: 100%;
+    word-wrap:break-word;
+}
 
 /* Make post names large. */
 .post-name {
